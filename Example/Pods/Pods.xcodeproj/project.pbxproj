@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A8F7792B8CDB93468729E0972CEE506 /* LilithProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA02970AEB7B453B7BC58E2A9C38661 /* LilithProgressHUD-dummy.m */; };
+		0308127A2C622221BA788B8ED4D5E3B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		120F19926E45CE8DE027DCD03313B00F /* Pods-LilithProgressHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 864EB75E43EC0DA418250FCE6DE62D0A /* Pods-LilithProgressHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17EAAC2BBD1CCE88E12C81E9938EEE37 /* LFProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C6F97387D4369100841B1B5E1AEC3 /* LFProgressHUD.swift */; };
 		2A0DC6A15151FBD65D03CB39BCD8F457 /* Pods-LilithProgressHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D959B909AD57BD7E0D4F8F9041B3 /* Pods-LilithProgressHUD_Example-dummy.m */; };
-		49529EDE476318058CAD0B81090ADE2F /* LilithProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BF95C6498104BD71D204080012A322 /* LilithProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50921EE32DE4BE98F565D5B57C9893B8 /* LilithProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA202A2889029000AC47B0C69CBA4E2C /* LilithProgressHUD.swift */; };
+		717CF6A865CD5F78DC2A2D38F2D10A0D /* LilithProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BF95C6498104BD71D204080012A322 /* LilithProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		783AF75721AE46A2AAD2DB6BF4623A4A /* LilithProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA02970AEB7B453B7BC58E2A9C38661 /* LilithProgressHUD-dummy.m */; };
 		9347F3BCEE367B1DBFD7E0783F62400D /* Pods-LilithProgressHUD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCD9C50A54C24A94332F17BAC4D88106 /* Pods-LilithProgressHUD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		997ACA667DCDDD6E6ECB4FF1D3A44FB3 /* Pods-LilithProgressHUD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6938EB13685F42C7193C4D4C21FF4368 /* Pods-LilithProgressHUD_Tests-dummy.m */; };
-		B29962D1414EEEA004E98BB1A5A02A82 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AEECEEBF6671F62FDE5381BFE0D43B /* HUD.swift */; };
-		E57D5BF0C06DE08D4B3383073FEF847C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		F1F8BBF301B68AE320C8675C03BE0956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		F73E407E254B2EA2E1FC3431C5E3BB7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -25,7 +24,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D9F5524555ECFDFE3BCAF74047E75460;
+			remoteGlobalIDString = B14AD46BE59007C6B56D42B72FB184E4;
 			remoteInfo = LilithProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
@@ -33,6 +32,7 @@
 /* Begin PBXFileReference section */
 		12F89E065783B9580B3B4E8295811090 /* Pods-LilithProgressHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LilithProgressHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		17DBEBACAEF73951F658725764DF5220 /* LilithProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LilithProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		185C6F97387D4369100841B1B5E1AEC3 /* LFProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LFProgressHUD.swift; sourceTree = "<group>"; };
 		250D3C08FE9EE808AAC696BF713F8E49 /* Pods-LilithProgressHUD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LilithProgressHUD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2EF323A14336F031BF74B6844C230FA7 /* Pods-LilithProgressHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LilithProgressHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
 		386EB4BC6D823AB0A94B2BE10D71FF7C /* Pods-LilithProgressHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LilithProgressHUD_Tests.modulemap"; sourceTree = "<group>"; };
@@ -53,8 +53,6 @@
 		A18E0FA0F8A73383679F37F34CF01D30 /* LilithProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LilithProgressHUD.xcconfig; sourceTree = "<group>"; };
 		A326AFD5A2218FD04D60E198B45FDCE1 /* Pods-LilithProgressHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LilithProgressHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A34E71B82C577351978AEEDB20DE7586 /* LilithProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LilithProgressHUD.modulemap; sourceTree = "<group>"; };
-		A5AEECEEBF6671F62FDE5381BFE0D43B /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
-		AA202A2889029000AC47B0C69CBA4E2C /* LilithProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LilithProgressHUD.swift; sourceTree = "<group>"; };
 		AAADE93A620EBA1FE1307DA47F718599 /* Pods-LilithProgressHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LilithProgressHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CB9379284B9C53DEB937EE7178DD79E8 /* Pods-LilithProgressHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LilithProgressHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CB94B411B36E41D7C09A53259DC73A64 /* Pods-LilithProgressHUD_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LilithProgressHUD_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -75,19 +73,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		609F52552BEBCD4C29B527717EDC8EED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E57D5BF0C06DE08D4B3383073FEF847C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		918813812C4744BE8CF38D107DBB8F4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F1F8BBF301B68AE320C8675C03BE0956 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3968CF7A789DB96A0602CCFD42EBB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0308127A2C622221BA788B8ED4D5E3B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,18 +145,17 @@
 		4B8350FA7EC9886F8F14B28A780E2874 /* LilithProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				7E46E4DF4FBC96F5E322F6EF8F52FE6A /* LilithProgressHUD */,
+				C7BADFF3FCA419BCBC1C2D4E504616AB /* LilithProgressHUD */,
 				374583B10FCA76A156B51A7AF0E22AFE /* Support Files */,
 			);
 			name = LilithProgressHUD;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		61DB5D791F62A9E4D3306876807D1002 /* Classes */ = {
+		70F787D21B2E195616FAEDCB4D314C04 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A5AEECEEBF6671F62FDE5381BFE0D43B /* HUD.swift */,
-				AA202A2889029000AC47B0C69CBA4E2C /* LilithProgressHUD.swift */,
+				185C6F97387D4369100841B1B5E1AEC3 /* LFProgressHUD.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -172,14 +169,6 @@
 				4986BA9EF1ECF595548A85427274516A /* Products */,
 				B1F51FE27B2B2ECA44751E9A7EB5AE70 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7E46E4DF4FBC96F5E322F6EF8F52FE6A /* LilithProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				61DB5D791F62A9E4D3306876807D1002 /* Classes */,
-			);
-			path = LilithProgressHUD;
 			sourceTree = "<group>";
 		};
 		8FD3FB563F943464A19B682E4E2E49A1 /* Pods-LilithProgressHUD_Tests */ = {
@@ -217,6 +206,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C7BADFF3FCA419BCBC1C2D4E504616AB /* LilithProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				70F787D21B2E195616FAEDCB4D314C04 /* Classes */,
+			);
+			path = LilithProgressHUD;
+			sourceTree = "<group>";
+		};
 		FA22C9EEE2BB777C94415F0B7BF6CC41 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,11 +233,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3262F3A52AC1A7BC598227866EA5101E /* Headers */ = {
+		317A6835C2F02F8B6F576DD8255276DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49529EDE476318058CAD0B81090ADE2F /* LilithProgressHUD-umbrella.h in Headers */,
+				717CF6A865CD5F78DC2A2D38F2D10A0D /* LilithProgressHUD-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,13 +287,13 @@
 			productReference = 56B995C456893BC064AE8896EECFBC4A /* Pods_LilithProgressHUD_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D9F5524555ECFDFE3BCAF74047E75460 /* LilithProgressHUD */ = {
+		B14AD46BE59007C6B56D42B72FB184E4 /* LilithProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A90617317A57E3000A23BEBF0C37667 /* Build configuration list for PBXNativeTarget "LilithProgressHUD" */;
+			buildConfigurationList = 66C1924EF15FE09C50B03FCA39F06256 /* Build configuration list for PBXNativeTarget "LilithProgressHUD" */;
 			buildPhases = (
-				B078AFCCE28A8AD37345FCFF643EE509 /* Sources */,
-				609F52552BEBCD4C29B527717EDC8EED /* Frameworks */,
-				3262F3A52AC1A7BC598227866EA5101E /* Headers */,
+				933945A1D8BC7EA8605B4871D6071BAA /* Sources */,
+				F3968CF7A789DB96A0602CCFD42EBB93 /* Frameworks */,
+				317A6835C2F02F8B6F576DD8255276DC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -328,7 +325,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9F5524555ECFDFE3BCAF74047E75460 /* LilithProgressHUD */,
+				B14AD46BE59007C6B56D42B72FB184E4 /* LilithProgressHUD */,
 				52A2A3B3DD7CA581AE7FC0B272A8E2DA /* Pods-LilithProgressHUD_Example */,
 				67695DE33DD447073D8F2961D5E03A1C /* Pods-LilithProgressHUD_Tests */,
 			);
@@ -352,13 +349,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B078AFCCE28A8AD37345FCFF643EE509 /* Sources */ = {
+		933945A1D8BC7EA8605B4871D6071BAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B29962D1414EEEA004E98BB1A5A02A82 /* HUD.swift in Sources */,
-				0A8F7792B8CDB93468729E0972CEE506 /* LilithProgressHUD-dummy.m in Sources */,
-				50921EE32DE4BE98F565D5B57C9893B8 /* LilithProgressHUD.swift in Sources */,
+				17EAAC2BBD1CCE88E12C81E9938EEE37 /* LFProgressHUD.swift in Sources */,
+				783AF75721AE46A2AAD2DB6BF4623A4A /* LilithProgressHUD-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +364,7 @@
 		8927DF45081CA9DFEAF9B8217D013E30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LilithProgressHUD;
-			target = D9F5524555ECFDFE3BCAF74047E75460 /* LilithProgressHUD */;
+			target = B14AD46BE59007C6B56D42B72FB184E4 /* LilithProgressHUD */;
 			targetProxy = 589B7103F3B4A2683FE520A59CD43D53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,35 +405,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		165601E1A37B38A327C44300DEC82566 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A18E0FA0F8A73383679F37F34CF01D30 /* LilithProgressHUD.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LilithProgressHUD/LilithProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LilithProgressHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LilithProgressHUD/LilithProgressHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LilithProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -508,6 +475,65 @@
 			};
 			name = Debug;
 		};
+		47359F1B9A847C2F24417EDD0594AB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18E0FA0F8A73383679F37F34CF01D30 /* LilithProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LilithProgressHUD/LilithProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LilithProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LilithProgressHUD/LilithProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LilithProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CCB7FFDF8D90D3E4DFCD81021C2B15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18E0FA0F8A73383679F37F34CF01D30 /* LilithProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LilithProgressHUD/LilithProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LilithProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LilithProgressHUD/LilithProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LilithProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		56E8CFF617E61A2F1A847C5D1A87672E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E167B67DA4B260AE3AA4A0DA0A29B97 /* Pods-LilithProgressHUD_Tests.debug.xcconfig */;
@@ -535,36 +561,6 @@
 				PRODUCT_NAME = Pods_LilithProgressHUD_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6605DC58B400BCC0EFAF26A5878BA7CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A18E0FA0F8A73383679F37F34CF01D30 /* LilithProgressHUD.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LilithProgressHUD/LilithProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LilithProgressHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LilithProgressHUD/LilithProgressHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LilithProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -676,11 +672,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A90617317A57E3000A23BEBF0C37667 /* Build configuration list for PBXNativeTarget "LilithProgressHUD" */ = {
+		66C1924EF15FE09C50B03FCA39F06256 /* Build configuration list for PBXNativeTarget "LilithProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6605DC58B400BCC0EFAF26A5878BA7CB /* Debug */,
-				165601E1A37B38A327C44300DEC82566 /* Release */,
+				4CCB7FFDF8D90D3E4DFCD81021C2B15D /* Debug */,
+				47359F1B9A847C2F24417EDD0594AB63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

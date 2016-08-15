@@ -26,20 +26,13 @@ It's easy as pie.
 //Import LilithProgressHUD
 import LilithProgressHUD
 
-//Show the HUD
-LilithProgressHUD.show()
+//Show the HUD on a view
+LilithProgressHUD.show(view)
 
 ... //Do something
 
-//Hide the HUD
-LilithProgressHUD.hide()
-```
-
-Or if you want to be more specific...
-
-```swift
-//Show the HUD on a specific view
-LilithProgressHUD.showOnView(view)
+//Hide all HUDs for the desired view
+LilithProgressHUD.hide(view)
 ```
 
 ## License

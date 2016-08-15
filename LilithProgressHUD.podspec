@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LilithProgressHUD'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'A beautiful, lightweight and elegant progress hud for iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  LFProgressHUD is an easy to use progress hud, written in Swift.
+  LilithProgressHUD is an easy to use progress hud, written in Swift.
                        DESC
 
   s.homepage         = 'https://github.com/Liquicit/LilithProgressHUD'
