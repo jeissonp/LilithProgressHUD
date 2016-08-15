@@ -11,19 +11,24 @@ import LilithProgressHUD
 
 class ViewController: UIViewController {
     
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let button = UIButton(frame: view.bounds)
-        button.setTitle("HELLO", forState: UIControlState.Normal)
-        button.setTitleColor(UIColor.blackColor(), forState: .Normal)
-        button.setTitleColor(UIColor.darkGrayColor(), forState: .Highlighted)
-        button.addTarget(self, action: #selector(ViewController.hello), forControlEvents: .TouchUpInside)
-        view.addSubview(button)
+        let background = UIImageView(frame: view.bounds)
+        background.image = UIImage(named: "Night")
+        background.contentMode = .ScaleAspectFill
+        view.addSubview(background)
+        
+        LilithProgressHUD.opacity(0.75)
         
         let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(3 * Double(NSEC_PER_SEC)))
         dispatch_after(delayTime, dispatch_get_main_queue()) {
             LilithProgressHUD.show(self.view)
+           
         }
         
     }

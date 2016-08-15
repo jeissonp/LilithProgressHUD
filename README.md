@@ -5,9 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/LilithProgressHUD.svg?style=flat)](http://cocoapods.org/pods/LilithProgressHUD)
 [![Platform](https://img.shields.io/cocoapods/p/LilithProgressHUD.svg?style=flat)](http://cocoapods.org/pods/LilithProgressHUD)
 
-A beautiful, lightweight and elegant progress hud for iOS.
+A beautiful, lightweight and elegant progress hud for iOS. 😎
 
-![LilithProgressHUD Image](https://s31.postimg.org/ule3c45or/Screenshot.png)
+![LilithProgressHUD Image](https://s4.postimg.org/4kd6bgtsd/Simulator_Screen_Shot_16_08_2016_8_06_52_AM.png)
 
 ## Installation
 
@@ -20,7 +20,7 @@ pod "LilithProgressHUD"
 
 ## Usage
 
-It's easy as pie.
+It's easy as pie. 😘
 
 ```swift
 //Import LilithProgressHUD
@@ -33,6 +33,13 @@ LilithProgressHUD.show(view)
 
 //Hide all HUDs for the desired view
 LilithProgressHUD.hide(view)
+```
+
+You can also configure LilithProgressHUD. I recommend you call these methods in your applicationDidFinishLaunchingWithOptions method. 😁
+
+```swift
+//Set the default opacity for the hud
+LilithProgressHUD.opacity(0.75)
 ```
 
 ## License

@@ -8,7 +8,7 @@
 
 import UIKit
 
-/** The class for displaying an LFProgressHUD. */
+/** The class for displaying an LilithProgressHUD. */
 public class LilithProgressHUD {
     /** Shows the HUD on a view. */
     public static func show(view:UIView) {
@@ -35,6 +35,11 @@ public class LilithProgressHUD {
             }
         }
     }
+    
+    /** Sets the default opacity for the hud. */
+    public static func opacity(opacity:CGFloat) {
+        LilithProgressHUDConfig.sharedInstance.opacity = opacity
+    }
 }
 
 /** The progressHUD class */
@@ -51,7 +56,7 @@ private class progressHUD : UIView {
         let hudFrame = CGRect(x: 0, y: 0, width: 80, height: 80)
         let hudView = UIView(frame: hudFrame)
         hudView.center = CGPoint(x: frame.width/2, y: frame.height/2)
-        hudView.backgroundColor = UIColor(white: 0, alpha: 0.3)
+        hudView.backgroundColor = UIColor(white: 0, alpha: LilithProgressHUDConfig.sharedInstance.opacity)
         hudView.layer.cornerRadius = 5
         hudView.clipsToBounds = true
         indicator = UIActivityIndicatorView(frame: hudView.bounds)
@@ -63,4 +68,20 @@ private class progressHUD : UIView {
     func startAnimating() {
         indicator.startAnimating()
     }
+}
+
+/** A class for maintaining and configuring the LilithProgressHUD */
+private class LilithProgressHUDConfig : NSObject {
+    
+    /** The opacity of the hud. */
+    var opacity:CGFloat! = 0.5
+    
+    /** Override the init, to use the singleton. */
+    override private init() {
+        super.init()
+    }
+    
+    /** Shared instance for LilithProgressHUD. */
+   static let sharedInstance = LilithProgressHUDConfig()
+    
 }
