@@ -18,11 +18,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let background = UIImageView(frame: view.bounds)
-        background.image = UIImage(named: "Night")
-        background.contentMode = .ScaleAspectFill
-        view.addSubview(background)
-        
         LilithProgressHUD.opacity(0.75)
         
         let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(3 * Double(NSEC_PER_SEC)))
