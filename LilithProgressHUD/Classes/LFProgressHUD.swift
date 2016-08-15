@@ -11,28 +11,36 @@ import UIKit
 /** The class for displaying an LilithProgressHUD. */
 public class LilithProgressHUD {
     /** Shows the HUD on a view. */
-    public static func show(view:UIView) {
-        let hud = progressHUD(frame: view.bounds)
-        hud.center = view.center
-        hud.alpha = 0
-        view.addSubview(hud)
-        
-        hud.startAnimating()
-        UIView.animateWithDuration(0.5, animations: {
-            hud.alpha = 1
-        })
+    public static func show(view:UIView?) {
+        if view != nil {
+            let hud = progressHUD(frame: view!.bounds)
+            hud.center = view!.center
+            hud.alpha = 0
+            view!.addSubview(hud)
+            
+            hud.startAnimating()
+            UIView.animateWithDuration(0.5, animations: {
+                hud.alpha = 1
+            })
+        }else{
+            print("View was nil when trying to show the hud on it.")
+        }
     }
     
     /** Hides all the huds for a view. */
-    public static func hide(view:UIView) {
-        for subView in view.subviews {
-            if subView.isKindOfClass(progressHUD) {
-                UIView.animateWithDuration(0.5, animations: {
-                    subView.alpha = 0
-                    }, completion: { (Bool) in
-                        subView.removeFromSuperview()
-                })
+    public static func hide(view:UIView?) {
+        if view != nil {
+            for subView in view!.subviews {
+                if subView.isKindOfClass(progressHUD) {
+                    UIView.animateWithDuration(0.5, animations: {
+                        subView.alpha = 0
+                        }, completion: { (Bool) in
+                            subView.removeFromSuperview()
+                    })
+                }
             }
+        }else{
+            print("View was nil when trying to hide the huds on it.")
         }
     }
     
@@ -82,6 +90,6 @@ private class LilithProgressHUDConfig : NSObject {
     }
     
     /** Shared instance for LilithProgressHUD. */
-   static let sharedInstance = LilithProgressHUDConfig()
+    static let sharedInstance = LilithProgressHUDConfig()
     
 }
