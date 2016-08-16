@@ -1,5 +1,5 @@
 PODS:
-  - LilithProgressHUD (0.1.2)
+  - LilithProgressHUD (0.1.5)
 
 DEPENDENCIES:
   - LilithProgressHUD (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LilithProgressHUD: b3d2c8808de31c02bddbf41f81f9577404deae43
+  LilithProgressHUD: f15893d0049e9eaec87f21c887271ac370cc3fe6
 
 PODFILE CHECKSUM: 4cf4805e5d8a9e674d54cf36ae1f8766415cc218
 

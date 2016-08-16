@@ -44,9 +44,19 @@ public class LilithProgressHUD {
         }
     }
     
-    /** Sets the default opacity for the hud. */
+    /** Sets the opacity for the hud. The default is 0.5. */
     public static func opacity(opacity:CGFloat) {
         LilithProgressHUDConfig.sharedInstance.opacity = opacity
+    }
+    
+    /** Sets the size of the hud. The default is 80. */
+    public static func size(size:CGFloat) {
+        LilithProgressHUDConfig.sharedInstance.size = size
+    }
+    
+    /** Sets the corner radius of the hud. The default is 5. */
+    public static func cornerRadius(cornerRadius:CGFloat) {
+        LilithProgressHUDConfig.sharedInstance.cornerRadius = cornerRadius
     }
 }
 
@@ -61,11 +71,11 @@ private class progressHUD : UIView {
     /** Init with a frame and setup th progressHUD with default values. */
     override init(frame: CGRect) {
         super.init(frame: frame)
-        let hudFrame = CGRect(x: 0, y: 0, width: 80, height: 80)
+        let hudFrame = CGRect(x: 0, y: 0, width: LilithProgressHUDConfig.sharedInstance.size, height: LilithProgressHUDConfig.sharedInstance.size)
         let hudView = UIView(frame: hudFrame)
         hudView.center = CGPoint(x: frame.width/2, y: frame.height/2)
         hudView.backgroundColor = UIColor(white: 0, alpha: LilithProgressHUDConfig.sharedInstance.opacity)
-        hudView.layer.cornerRadius = 5
+        hudView.layer.cornerRadius = LilithProgressHUDConfig.sharedInstance.cornerRadius
         hudView.clipsToBounds = true
         indicator = UIActivityIndicatorView(frame: hudView.bounds)
         hudView.addSubview(indicator)
@@ -80,9 +90,14 @@ private class progressHUD : UIView {
 
 /** A class for maintaining and configuring the LilithProgressHUD */
 private class LilithProgressHUDConfig : NSObject {
-    
     /** The opacity of the hud. */
     var opacity:CGFloat! = 0.5
+    
+    /** Size of the hud. */
+    var size:CGFloat! = 80
+    
+    /** Corner radius of the hud. */
+    var cornerRadius:CGFloat! = 5
     
     /** Override the init, to use the singleton. */
     override private init() {
@@ -91,5 +106,4 @@ private class LilithProgressHUDConfig : NSObject {
     
     /** Shared instance for LilithProgressHUD. */
     static let sharedInstance = LilithProgressHUDConfig()
-    
 }

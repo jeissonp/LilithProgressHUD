@@ -20,7 +20,7 @@ pod "LilithProgressHUD"
 
 ## Usage
 
-It's easy as pie. 😘
+It's easy as pie. 😋
 
 ```swift
 //Import LilithProgressHUD
@@ -35,11 +35,17 @@ LilithProgressHUD.show(view)
 LilithProgressHUD.hide(view)
 ```
 
-You can also configure LilithProgressHUD. I recommend you call these methods in your applicationDidFinishLaunchingWithOptions method. 😁
+Sexy extras. 😘
 
 ```swift
-//Set the default opacity for the hud
+//Set the opacity for the hud
 LilithProgressHUD.opacity(0.75)
+
+//Set the size of the hud
+LilithProgressHUD.size(50)
+
+//Set the corner radius of the hud
+LilithProgressHUD.cornerRadius(3)
 ```
 
 ## License
