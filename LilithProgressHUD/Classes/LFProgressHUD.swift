@@ -44,6 +44,7 @@ public class LilithProgressHUD {
     public static func show(view: UIView?) {
         guard let view = view else {
             assert(false, "View was nil when trying to show the hud on it.")
+            return
         }
         
         let hud = ProgressHUD(frame: view.bounds)
@@ -60,6 +61,7 @@ public class LilithProgressHUD {
     public static func hide(view: UIView?) {
         guard let view = view else {
             assert(false, "View was nil when trying to hide the hud on it.")
+            return
         }
         
         for subView in view.subviews {

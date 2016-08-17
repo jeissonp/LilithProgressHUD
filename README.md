@@ -1,6 +1,5 @@
 # LilithProgressHUD
 
-[![CI Status](http://img.shields.io/travis/joshuaarnold/LilithProgressHUD.svg?style=flat)](https://travis-ci.org/joshuaarnold/LilithProgressHUD)
 [![Version](https://img.shields.io/cocoapods/v/LilithProgressHUD.svg?style=flat)](http://cocoapods.org/pods/LilithProgressHUD)
 [![License](https://img.shields.io/cocoapods/l/LilithProgressHUD.svg?style=flat)](http://cocoapods.org/pods/LilithProgressHUD)
 [![Platform](https://img.shields.io/cocoapods/p/LilithProgressHUD.svg?style=flat)](http://cocoapods.org/pods/LilithProgressHUD)
@@ -8,6 +7,18 @@
 A beautiful, lightweight and elegant progress hud for iOS. 😎
 
 ![LilithProgressHUD Image](https://s4.postimg.org/4kd6bgtsd/Simulator_Screen_Shot_16_08_2016_8_06_52_AM.png)
+
+## Features
+
+- [x] Incredibly easy to use (no hoo-ha) 🙌🏼
+- [x] Beautiful & customizable 😍
+- [x] Made with love ❤️ 
+- [x] I like watermelon 🍉
+
+## Requirements
+
+- iOS 8.0+
+- Xcode 7.3
 
 ## Installation
 
@@ -17,7 +28,7 @@ LilithProgressHUD is available through [CocoaPods](http://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "LilithProgressHUD"
+pod 'LilithProgressHUD'
 ```
 
 ### Manually 
@@ -54,6 +65,10 @@ LilithProgressHUD.size = 50
 //Set the corner radius of the hud
 LilithProgressHUD.cornerRadius = 3
 ```
+
+## Contribute
+
+We would love for you to contribute to **LilithProgressHUD**, check the ``LICENSE`` file for more info.
 
 ## License
 
