@@ -18,16 +18,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        LilithProgressHUD.opacity(0.5)
-        LilithProgressHUD.size(50)
-        LilithProgressHUD.cornerRadius(5)
+        LilithProgressHUD.opacity = 0.5
+        LilithProgressHUD.size = 50
+        LilithProgressHUD.cornerRadius = 5
         
         let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(3 * Double(NSEC_PER_SEC)))
         dispatch_after(delayTime, dispatch_get_main_queue()) {
             LilithProgressHUD.show(self.view)
-           
         }
-        
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -43,7 +41,5 @@ class ViewController: UIViewController {
     func hello() {
         print("hello")
     }
-
-    
 }
 
