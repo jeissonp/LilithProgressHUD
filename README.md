@@ -11,7 +11,7 @@ A beautiful, lightweight and elegant progress hud for iOS. 😎
 
 ## Installation
 
-# CocoaPods
+### CocoaPods
 
 LilithProgressHUD is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 pod "LilithProgressHUD"
 ```
 
-# Manually 
+### Manually 
 
 1. Download and drop LilithProgressHUD.swift in your project.
 2. Congratulations! 👏🏼
