@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         dispatch_after(delayTime, dispatch_get_main_queue()) {
             LilithProgressHUD.show(self.view)
         }
+        
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -35,11 +36,8 @@ class ViewController: UIViewController {
         dispatch_after(delayTime, dispatch_get_main_queue()) {
             LilithProgressHUD.hide(self.view)
         }
-        
+    
     }
     
-    func hello() {
-        print("hello")
-    }
 }
 

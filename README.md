@@ -11,12 +11,19 @@ A beautiful, lightweight and elegant progress hud for iOS. 😎
 
 ## Installation
 
+# CocoaPods
+
 LilithProgressHUD is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "LilithProgressHUD"
 ```
+
+# Manually 
+
+1. Download and drop LilithProgressHUD.swift in your project.
+2. Congratulations! 👏🏼
 
 ## Usage
 
@@ -39,13 +46,13 @@ Sexy extras. 😘
 
 ```swift
 //Set the opacity for the hud
-LilithProgressHUD.opacity(0.75)
+LilithProgressHUD.opacity = 0.75
 
 //Set the size of the hud
-LilithProgressHUD.size(50)
+LilithProgressHUD.size = 50
 
 //Set the corner radius of the hud
-LilithProgressHUD.cornerRadius(3)
+LilithProgressHUD.cornerRadius = 3
 ```
 
 ## License

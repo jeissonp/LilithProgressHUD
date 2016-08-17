@@ -101,7 +101,7 @@ private class LilithProgressHUDConfig {
     var opacity: CGFloat = 0.5
     
     /** Size of the hud. */
-    var size: CGFloat = 80
+    var size: CGFloat = 70
     
     /** Corner radius of the hud. */
     var cornerRadius: CGFloat = 5
