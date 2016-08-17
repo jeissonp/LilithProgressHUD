@@ -20,7 +20,7 @@ public class LilithProgressHUD {
         }
     }
     
-    /** Sets the size of the hud. The default is 80. */
+    /** Sets the size of the hud. The default is 70. */
     public static var size: CGFloat {
         get {
             return LilithProgressHUDConfig.sharedInstance.size
