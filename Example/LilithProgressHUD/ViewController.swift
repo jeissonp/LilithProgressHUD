@@ -18,25 +18,33 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        LilithProgressHUD.opacity = 0.5
-        LilithProgressHUD.size = 50
-        LilithProgressHUD.cornerRadius = 5
+        let label = UILabel(frame: view.bounds)
+        label.textAlignment = .Center
+        label.text = "🍉"
+        view.addSubview(label)
         
-        let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(3 * Double(NSEC_PER_SEC)))
+        LilithProgressHUD.opacity = 0.75
+        LilithProgressHUD.size = 60
+        LilithProgressHUD.cornerRadius = 5
+        LilithProgressHUD.fadeTime = 1
+        
+        //Show hud after delay
+        let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(2 * Double(NSEC_PER_SEC)))
         dispatch_after(delayTime, dispatch_get_main_queue()) {
-            LilithProgressHUD.show(self.view)
+            LilithProgressHUD.show()
         }
         
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        
+
+        //Hide the hud after delay
         let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(9 * Double(NSEC_PER_SEC)))
         dispatch_after(delayTime, dispatch_get_main_queue()) {
-            LilithProgressHUD.hide(self.view)
+            LilithProgressHUD.hide()
         }
-    
+        
     }
     
 }

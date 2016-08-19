@@ -44,26 +44,41 @@ It's easy as pie. 😋
 //Import LilithProgressHUD
 import LilithProgressHUD
 
-//Show the HUD on a view
+//Show the HUD
+LilithProgressHUD.show()
+
+... //Do something
+
+//Hide the HUD
+LilithProgressHUD.hide()
+```
+
+If you want to be more specific...
+
+```swift
+//Show the HUD on desired view
 LilithProgressHUD.show(view)
 
 ... //Do something
 
-//Hide all HUDs for the desired view
+//Hide all HUD's for a desired view
 LilithProgressHUD.hide(view)
 ```
 
 Sexy extras. 😘
 
 ```swift
-//Set the opacity for the hud
+//The opacity for the hud
 LilithProgressHUD.opacity = 0.75
 
-//Set the size of the hud
+//The size of the hud
 LilithProgressHUD.size = 50
 
-//Set the corner radius of the hud
+//The corner radius of the hud
 LilithProgressHUD.cornerRadius = 3
+
+//The fade in and out time
+LilithProgressHUD.fadeTime = 1
 ```
 
 ## Contribute
