@@ -163,14 +163,14 @@ private class ProgressHUD: UIView {
     /** Starts animating the HUD */
     func startAnimating() {
         indicator.startAnimating()
-        UIView.animateWithDuration(0.5, animations: {
+        UIView.animateWithDuration(LilithProgressHUDConfig.sharedInstance.fadeTime, animations: {
             self.hudView.alpha = 1
         })
     }
     
     /** Finishes animating the HUD */
     func endAnimating() {
-        UIView.animateWithDuration(0.5, animations: {
+        UIView.animateWithDuration(LilithProgressHUDConfig.sharedInstance.fadeTime, animations: {
             self.hudView.alpha = 0
             }, completion: { (finished) in
                 self.removeFromSuperview()
