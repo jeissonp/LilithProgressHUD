@@ -38,7 +38,7 @@ pod 'LilithProgressHUD'
 
 ## Usage
 
-It's easy as pie. 😋
+### It's easy as pie. 😋 
 
 ```swift
 //Import LilithProgressHUD
@@ -53,7 +53,7 @@ LilithProgressHUD.show()
 LilithProgressHUD.hide()
 ```
 
-If you want to be more specific...
+### If you want to be more specific... 😉
 
 ```swift
 //Show the HUD on desired view
@@ -65,7 +65,7 @@ LilithProgressHUD.show(view)
 LilithProgressHUD.hide(view)
 ```
 
-Sexy extras. 😘
+### Sexy extras. 😘
 
 ```swift
 //The opacity for the hud
